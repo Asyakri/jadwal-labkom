@@ -114,7 +114,7 @@ const LabScheduleCards = () => {
       "asisten": "",
       "jam": "13.50-15.30",
       "hari": "Jumat",
-      "whatsapp": "",
+      "whatsapp": "6281935103137",
       "kirimAsdos": "Tidak ada"
     },
     {
@@ -912,13 +912,13 @@ const LabScheduleCards = () => {
     {
       "id": 75,
       "dosen": "HARIRI. S.Kom",
-      "whatsapp": "6282350021288",
       "matkul": "PEMROGRAMAN WEB DASAR",
       "prodi": "D3RPLA/II/A",
       "ruangan": "LAB RPL 4",
       "asisten": "-",
       "jam": "08.00-09.40",
       "hari": "Senin",
+      "whatsapp": "6281935103137",
       "kirimAsdos": "Tidak ada"
     },
     {
@@ -1344,13 +1344,13 @@ const LabScheduleCards = () => {
     {
       "id": 111,
       "dosen": "HARIRI. S.Kom",
-      "whatsapp": "6282350021288",
       "matkul": "ANALISA DESAIN SISTEM INFORMASI",
       "prodi": "D3SI/IV/A",
       "ruangan": "LAB RPL 3",
       "asisten": "-",
       "jam": "13.50-15.30",
       "hari": "Sabtu",
+      "whatsapp": "6281935103137",
       "kirimAsdos": "Tidak ada"
     },
     {
@@ -1500,13 +1500,13 @@ const LabScheduleCards = () => {
     {
       "id": 124,
       "dosen": "HARIRI. S.Kom",
-      "whatsapp": "6282350021288",
       "matkul": "KEAMANAN DAN PEMELIHARAAN WEB",
       "prodi": "D3SI/VI/A",
       "ruangan": "LAB RPL 4",
       "asisten": "-",
       "jam": "10.30-12.10",
       "hari": "Rabu",
+      "whatsapp": "6281935103137",
       "kirimAsdos": "Tidak ada"
     },
     {
@@ -2076,14 +2076,15 @@ const LabScheduleCards = () => {
     {
       "id": 172,
       "dosen": "HARIRI. S.Kom",
-      "whatsapp": "6282350021288",
       "matkul": "KEAMANAN DAN PEMELIHARAAN WEB",
       "prodi": "D3SI/VI/A",
       "ruangan": "LAB RPL 4",
       "asisten": "-",
       "jam": "10.30-12.10",
       "hari": "Rabu",
+      "whatsapp": "6281935103137",
       "kirimAsdos": "Tidak ada"
+
     },
     {
       "id": 173,
