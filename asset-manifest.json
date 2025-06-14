@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/jadwal-labkom/static/css/main.c97635d4.css",
+    "main.js": "/jadwal-labkom/static/js/main.07ad6362.js",
+    "static/js/453.7828abdb.chunk.js": "/jadwal-labkom/static/js/453.7828abdb.chunk.js",
+    "index.html": "/jadwal-labkom/index.html",
+    "main.c97635d4.css.map": "/jadwal-labkom/static/css/main.c97635d4.css.map",
+    "main.07ad6362.js.map": "/jadwal-labkom/static/js/main.07ad6362.js.map",
+    "453.7828abdb.chunk.js.map": "/jadwal-labkom/static/js/453.7828abdb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c97635d4.css",
+    "static/js/main.07ad6362.js"
+  ]
+}
