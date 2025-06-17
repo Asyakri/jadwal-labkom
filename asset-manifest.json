@@ -1,12 +1,15 @@
 {
   "files": {
-    "main.css": "https://asyakri.github.io/jadwal-labkom/static/css/main.74f8b94d.css",
-    "main.js": "https://asyakri.github.io/jadwal-labkom/static/js/main.51d14aeb.js",
-    "static/js/206.7091390d.chunk.js": "https://asyakri.github.io/jadwal-labkom/static/js/206.7091390d.chunk.js",
-    "index.html": "https://asyakri.github.io/jadwal-labkom/index.html"
+    "main.css": "/jadwal-labkom/static/css/main.679a291a.css",
+    "main.js": "/jadwal-labkom/static/js/main.a4282d80.js",
+    "static/js/453.b238ee80.chunk.js": "/jadwal-labkom/static/js/453.b238ee80.chunk.js",
+    "index.html": "/jadwal-labkom/index.html",
+    "main.679a291a.css.map": "/jadwal-labkom/static/css/main.679a291a.css.map",
+    "main.a4282d80.js.map": "/jadwal-labkom/static/js/main.a4282d80.js.map",
+    "453.b238ee80.chunk.js.map": "/jadwal-labkom/static/js/453.b238ee80.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.74f8b94d.css",
-    "static/js/main.51d14aeb.js"
+    "static/css/main.679a291a.css",
+    "static/js/main.a4282d80.js"
   ]
 }
