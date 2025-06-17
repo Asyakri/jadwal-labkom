@@ -1,1 +1,0 @@
-{"version":3,"file":"static/css/main.73c2e7d1.css","mappings":"AAAA,cAAc,CACd,oBAAoB,CACpB,mBAAmB,CCFnB,KACE,iBACF","sources":["index.css","App.css"],"sourcesContent":["@tailwind base;\n@tailwind components;\n@tailwind utilities;",".App {\n  text-align: center;\n}\n"],"names":[],"sourceRoot":""}
