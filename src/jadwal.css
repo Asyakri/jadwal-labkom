@@ -1,0 +1,228 @@
+.schedule-container {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.filter-section {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.filter-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.filter-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.filter-item label {
+    font-weight: 500;
+    color: #374151;
+}
+
+.filter-item select,
+.filter-item input {
+    padding: 0.5rem;
+    border: 1px solid #d1d5db;
+    border-radius: 0.375rem;
+    background: white;
+}
+
+.schedule-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.schedule-card {
+    border-radius: 16px;
+    padding: 2.5px;
+    /* untuk border gradasi */
+    background: transparent;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    transition: box-shadow 0.2s, filter 0.2s;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.schedule-card:hover {
+    filter: brightness(0.97) saturate(1.2);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.10);
+}
+
+.card-header {
+    padding: 1rem;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.info-row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.info-row svg {
+    width: 1rem;
+    height: 1rem;
+    color: #6b7280;
+}
+
+.room-badge {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: white;
+}
+
+.no-schedule {
+    text-align: center;
+    padding: 3rem;
+    color: #6b7280;
+}
+
+.no-schedule svg {
+    width: 4rem;
+    height: 4rem;
+    margin: 0 auto 1rem;
+    color: #9ca3af;
+}
+
+/* Badge warna untuk setiap lab */
+.room-badge.LAB-DKV-2 {
+    background: #ec4899;
+    /* pink */
+}
+
+.room-badge.LAB-RPL-1 {
+    background: #10b981;
+    /* green */
+}
+
+.room-badge.LAB-RPL-2 {
+    background: #f59e42;
+    /* orange */
+}
+
+.room-badge.LAB-RPL-3 {
+    background: #6366f1;
+    /* indigo */
+}
+
+.room-badge.LAB-RPL-4 {
+    background: #fbbf24;
+    /* yellow */
+}
+
+.room-badge.LAB-RP-4 {
+    background: #6d28d9;
+    /* purple */
+}
+
+.room-badge.LAB-IOT {
+    background: #0ea5e9;
+    /* blue */
+}
+
+/* Card dengan border gradasi sesuai lab */
+.schedule-card {
+    border-radius: 16px;
+    padding: 2.5px;
+    /* untuk border gradasi */
+    background: transparent;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    transition: box-shadow 0.2s, filter 0.2s;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+/* Inner card putih */
+.schedule-card-inner {
+    background: #fff;
+    border-radius: 14px;
+    padding: 1.2rem 1.2rem 1rem 1.2rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Border gradasi untuk setiap lab */
+.schedule-card.LAB-DKV-2 {
+    background: linear-gradient(135deg, #f43f5e 0%, #f9a8d4 100%);
+}
+
+.schedule-card.LAB-RPL-1 {
+    background: linear-gradient(135deg, #22d3ee 0%, #0ea5e9 100%);
+}
+
+.schedule-card.LAB-RPL-2 {
+    background: linear-gradient(135deg, #facc15 0%, #f59e42 100%);
+}
+
+.schedule-card.LAB-RPL-3 {
+    background: linear-gradient(135deg, #a21caf 0%, #f472b6 100%);
+}
+
+.schedule-card.LAB-RPL-4 {
+    background: linear-gradient(135deg, #fbbf24 0%, #f59e42 100%);
+}
+
+.schedule-card.LAB-RP-4 {
+    background: linear-gradient(135deg, #6366f1 0%, #818cf8 100%);
+}
+
+.schedule-card.LAB-IOT {
+    background: linear-gradient(135deg, #16a34a 0%, #bbf7d0 100%);
+}
+
+.statistik-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* 4 kolom horizontal */
+    gap: 1rem;
+    margin-bottom: 2rem;
+    align-items: stretch;
+}
+
+@media (max-width: 900px) {
+    .statistik-section {
+        grid-template-columns: repeat(2, 1fr);
+        /* 2 kolom di layar kecil */
+    }
+}
+
+@media (max-width: 600px) {
+    .statistik-section {
+        grid-template-columns: 1fr;
+        /* 1 kolom di layar HP */
+    }
+}
+
+.statistik-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    padding: 1.2rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
